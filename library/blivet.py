@@ -835,7 +835,7 @@ def run_module():
     result['packages'] = b.packages[:]
 
     for action in scheduled:
-        if action.is_destroy and action.is_format and action.format.exists:
+        if (action.is_destroy or action.is_resize) and action.is_format and action.format.exists:
             action.format.teardown()
 
     if scheduled:
