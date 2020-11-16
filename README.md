@@ -152,7 +152,6 @@ Example Playbook
 
 ```yaml
 - hosts: all
-
   roles:
     - name: linux-system-roles.storage
       storage_pools:
