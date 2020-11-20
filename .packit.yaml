@@ -1,6 +1,6 @@
 #upstream_package_name: linux-system-roles
 downstream_package_name: linux-system-roles
-#specfile_path: linux-system-roles.spec
+specfile_path: linux-system-roles.spec
 spec_source_id: 6
 actions:
   post-upstream-clone: "wget https://raw.githubusercontent.com/pcahyna/auto-maintenance/packit/linux-system-roles.spec"
