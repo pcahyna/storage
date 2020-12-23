@@ -3,5 +3,5 @@ downstream_package_name: linux-system-roles
 specfile_path: linux-system-roles.spec
 spec_source_id: 6
 actions:
-  post-upstream-clone: "wget https://raw.githubusercontent.com/pcahyna/auto-maintenance/packit/linux-system-roles.spec"
+  post-upstream-clone: "wget https://raw.githubusercontent.com/pcahyna/auto-maintenance/38cd728365e5164853ac94f301aca10fc2f6f927/linux-system-roles.spec"
   fix-spec-file: ./fix-spec-file.sh
